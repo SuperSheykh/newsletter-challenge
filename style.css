@@ -113,7 +113,11 @@ button {
    cursor: pointer;
 }
 button:hover {
-   color: white;
+   background: linear-gradient(
+      90deg,
+      rgba(255, 98, 87, 1) 42%,
+      rgba(255, 157, 87, 1) 100%
+   );
 }
 button:active {
    background-color: black;
@@ -134,7 +138,7 @@ button:active {
 }
 .success-img {
    width: 50px;
-   margin-top: 5rem;
+   margin-top: 5em;
    margin-left: 1em;
 }
 .suc-title {
@@ -186,7 +190,6 @@ button:active {
       width: 50px;
    }
    .bottom {
-      /* min-height: 100%; */
       display: flex;
       flex-direction: column;
       justify-content: space-between;

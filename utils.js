@@ -11,7 +11,7 @@ const htmlGenerator = (email) => {
             <h1 class="suc-title">Thanks for subscribing!</h1>
             <p>A confirmation email has been sent to
             <span class="email">${email}</span>. 
-            Please opten it and slick the button inside to confirm roue 
+            Please open it and click the button inside to confirm your 
             subscription.</p>
         </div>
         <button id="dismiss-btn">Dismiss message</button>
